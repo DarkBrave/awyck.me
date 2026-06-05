@@ -1,6 +1,6 @@
 baseURL: https://awyck.me
 locale: en-us
-title: Andrew W
+title: Andrew's Dumping Ground
 theme: ["PaperMod"]
 caches:
   images:
@@ -38,3 +38,4 @@ params:
     - posts
     - reference
   disableSpecial1stPost: true
+copyright: "© 2026 Andrew W unless otherwise noted"
