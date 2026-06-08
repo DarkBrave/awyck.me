@@ -20,6 +20,7 @@ discourse.example.com {
 ```bash
 wget -qO- https://raw.githubusercontent.com/discourse/discourse_docker/main/install-discourse | sudo bash
 ```
+This gets the basic installation of Discourse onto your server, which then lets us edit the configuration to work.
 
 3. Edit the Discourse docker configuration (`/etc/discourse/containers/app.yml`) to have the following edits:
 ```yml
@@ -35,7 +36,6 @@ This removes HTTPS from Discourse (Caddy will be managing that with Let's Encryp
 ```bash
 sudo ./launcher rebuild app
 ```
-
 You should now be able to follow through the rest of the Discourse install process as normal to use your forum.
 
 Email me (link on [main page](https://awyck.me)) if there's any problems with/fixes needed for this guide.
