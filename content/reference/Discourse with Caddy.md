@@ -16,7 +16,7 @@ discourse.example.com {
 }
 ```
 
-2. Follow the [beginner Discourse install guide](https://github.com/discourse/discourse/blob/main/docs/INSTALL-cloud.md#install-discourse-on-a-cloud-server) and run the installer command, completing the configuration as normal. This will fail to complete, as expected.
+2. Follow the [beginner Discourse install guide](https://github.com/discourse/discourse/blob/main/docs/INSTALL-cloud.md#install-discourse-on-a-cloud-server) and run the installer command, completing the configuration as normal. This will fail to complete, as we need to fix the configuration.
 ```bash
 wget -qO- https://raw.githubusercontent.com/discourse/discourse_docker/main/install-discourse | sudo bash
 ```
