@@ -43,8 +43,13 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Install R dependencies
-        run: |
-          Rscript -e 'install.packages(c("knitr", "rmarkdown", "Rmisc", "ggplot2"), repos="https://cloud.r-project.org")'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::knitr
+            any::rmarkdown
+            any::Rmisc
+            any::ggplot2
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
