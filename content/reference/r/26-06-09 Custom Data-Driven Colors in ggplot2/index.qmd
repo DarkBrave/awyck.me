@@ -1,5 +1,5 @@
 ---
-title: "26-06-09 Custom Data-Driven Colors in ggplot2"
+title: "Custom Data-Driven Colors in ggplot2"
 format: hugo-md
 date: 2026-06-09
 editor: visual
@@ -44,7 +44,7 @@ ggplot(data=FullData, aes(x=name, y=score, fill=food))+
 
 Now this fixes the "no key" and "need to manually update colors" problems, but now the colors are randomly chosen by ggplot instead of by us!
 
-To set them ourselves, we can use the "scale_fill_manual" tool to give it a special mapping of what colors we want to be assigned to each color.
+To set them ourselves, we can use the "scale_fill_manual" tool to give it a special mapping of what colors we want to be assigned to each type of food.
 
 ```{r}
 ColorCode = c("pizza" = "blue", "tacos" = "red", "burger" = "green")
