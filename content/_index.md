@@ -14,8 +14,8 @@ I do lots of stuff, from just being a student, designing and building FRC robots
 
 You can find me all over the place, including the following:
 
-- [Bluesky](https://bsky.app/profile/awyck.me)
+- [Bluesky](https://bsky.app/profile/andw.me)
 - [YouTube](https://www.youtube.com/@AndrewW-Channel/)
-- [Email](mailto:andrew@awyck.me)
+- [Email](mailto:andrew@andw.me)
 - [Minecraft](https://namemc.com/profile/DarkBrave.2)
 - [Old YouTube](https://www.youtube.com/@DarkBraveStuff)
