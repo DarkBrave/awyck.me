@@ -1,0 +1,10 @@
+{{ $url := .Get "url" }}
+{{ $lang := .Get "lang" | default "text" }}
+
+{{ with try (resources.GetRemote $url) }}
+{{ with .Value }}
+{{ highlight .Content $lang }}
+{{ else }}
+Failed to fetch file.
+{{ end }}
+{{ end }}
